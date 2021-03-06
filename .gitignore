@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/MyGreater/v15/Server/sqlite3
+*.suo
+/MyGreater/obj/Debug
+/MyGreater.FolderScriptFetcher/bin/Debug/netstandard2.0
+/MyGreater.FolderScriptFetcher/obj/Debug/netstandard2.0
+/MyGreater.FolderScriptFetcher/obj
+/MyGreater.Migration.UnitTests/obj/Debug
+/MyGreater.Migrations.Contracts/bin/Debug/netstandard2.0
+/MyGreater.Migrations.Contracts/obj/Debug/netstandard2.0
+/MyGreater.NetCore.Console/bin/Debug/netcoreapp2.0
+/MyGreater.NetCore.Console/obj/Debug/netcoreapp2.0
+/MyGreater.SqlServer/bin/Debug/netstandard2.0
+/MyGreater.SqlServer/obj
+/packages
+/MyGreater/bin/Debug
+*/bin/*
+*/obj
+/MyGreater.NetCore.Console/obj
+/MyGreater.Migrations.Contracts/obj
+/.vs/MyGreater/DesignTimeBuild/.dtbcache
+.vs

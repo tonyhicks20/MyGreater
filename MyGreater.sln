@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreater", "MyGreater\MyGreater.csproj", "{8E4AD252-784F-4485-86ED-D0D0533F890F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGreater.Migration.Logic", "MyGreater.Migrations.Contracts\MyGreater.Migration.Logic.csproj", "{F8CA0FD0-70E6-4FBF-8DAC-06DF914E37A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreater.Migration.UnitTests", "MyGreater.Migration.UnitTests\MyGreater.Migration.UnitTests.csproj", "{F5470054-F3DF-4C9F-932B-39BF667BC13D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGreater.SqlServer", "MyGreater.SqlServer\MyGreater.SqlServer.csproj", "{36CE1DDC-4E2F-40DF-95AB-604D63EDB014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreater.FolderScriptFetcher", "MyGreater.FolderScriptFetcher\MyGreater.FolderScriptFetcher.csproj", "{0AAB855C-100D-4666-976E-ABCAD2121CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGreater.NetCore.Console", "MyGreater.NetCore.Console\MyGreater.NetCore.Console.csproj", "{D6F65698-1E32-4560-8510-1362B07B29E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E4AD252-784F-4485-86ED-D0D0533F890F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4AD252-784F-4485-86ED-D0D0533F890F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4AD252-784F-4485-86ED-D0D0533F890F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4AD252-784F-4485-86ED-D0D0533F890F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CA0FD0-70E6-4FBF-8DAC-06DF914E37A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CA0FD0-70E6-4FBF-8DAC-06DF914E37A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CA0FD0-70E6-4FBF-8DAC-06DF914E37A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CA0FD0-70E6-4FBF-8DAC-06DF914E37A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5470054-F3DF-4C9F-932B-39BF667BC13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5470054-F3DF-4C9F-932B-39BF667BC13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5470054-F3DF-4C9F-932B-39BF667BC13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5470054-F3DF-4C9F-932B-39BF667BC13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CE1DDC-4E2F-40DF-95AB-604D63EDB014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CE1DDC-4E2F-40DF-95AB-604D63EDB014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CE1DDC-4E2F-40DF-95AB-604D63EDB014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CE1DDC-4E2F-40DF-95AB-604D63EDB014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AAB855C-100D-4666-976E-ABCAD2121CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAB855C-100D-4666-976E-ABCAD2121CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAB855C-100D-4666-976E-ABCAD2121CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAB855C-100D-4666-976E-ABCAD2121CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F65698-1E32-4560-8510-1362B07B29E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F65698-1E32-4560-8510-1362B07B29E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F65698-1E32-4560-8510-1362B07B29E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F65698-1E32-4560-8510-1362B07B29E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {801ABB55-2302-4375-8BD0-27429F465D5D}
+	EndGlobalSection
+EndGlobal
